@@ -1,0 +1,82 @@
+body {
+    background-image: url(img/Gradient.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.tela {
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+    text-align: center;
+    position: absolute;
+    width: 462px;
+    height: 490.17px;
+    left: calc(50% - 462px/2);
+    top: calc(50% - 490.17px/2 + 21.92px);
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 62px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #E0468D;
+    margin-top: 65px;
+    text-shadow:
+        -1px -1px 0 #E0468D,
+        1px -1px 0 #E0468D,
+        -1px 1px 0 #E0468D,
+        1px 1px 0 #E0468D,
+        0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #E0468D;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+img {
+    /*icon*/
+    position: absolute;
+    width: 102.5px;
+    height: 97.66px;
+    left: 180px;
+    top: -40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+input[type="email"]{
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 29px;
+    border: none;
+}
+
+input[type="password"]{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 102px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 29px;
+    border: none;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 100px;
+    height: 41px;
+    left: 660px;
+    margin-top: 100px;
+    border-radius: 29px;
+}
