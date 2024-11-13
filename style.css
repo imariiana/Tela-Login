@@ -1,7 +1,8 @@
 body {
     background-image: url(img/Gradient.jpg);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tela {
@@ -79,4 +80,10 @@ input[type="submit"] {
     left: 660px;
     margin-top: 100px;
     border-radius: 29px;
+    background: rgba(255, 255, 255, 0.33);
+
+}
+
+input[type="submit"]:hover{
+    background-color: white;
 }
