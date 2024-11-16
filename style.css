@@ -1,76 +1,72 @@
 body {
-    background-image: url(img/Gradient.jpg);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
+    font-family: jost;
+    margin: 0;
 }
 
 .tela {
-    margin: auto;
-    min-width: 320px;
-    max-width: 600px;
-    text-align: center;
     position: absolute;
-    width: 462px;
-    height: 490.17px;
-    left: calc(50% - 462px/2);
-    top: calc(50% - 490.17px/2 + 21.92px);
-    background: rgba(255, 255, 255, 0.21);
-    border-radius: 62px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    left: 700px;
+    top: 40px;
+    background: #102B53;
+    box-shadow: 0px 16px 32px -8px rgba(12, 12, 13, 0.4);
+    border-radius: 65px;
 }
 
+
 h2 {
-    font-weight: 400;
-    font-size: 40px;
-    color: #E0468D;
-    margin-top: 65px;
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    margin-top: 105px;
     text-shadow:
-        -1px -1px 0 #E0468D,
-        1px -1px 0 #E0468D,
-        -1px 1px 0 #E0468D,
-        1px 1px 0 #E0468D,
+        -1px -1px 0 white,
+        -1px -1px 0 white,
+        -1px -1px 0 white,
+        -1px -1px 0 white,
         0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    color: #E0468D;
-    font-style: italic;
-    font-size: 20px;
-    margin-top: -10px;
-}
-
-img {
-    /*icon*/
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: -70px;
     position: absolute;
-    width: 102.5px;
-    height: 97.66px;
-    left: 180px;
-    top: -40px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    left: 290px;
 }
 
-input[type="email"]{
+input[type="email"] {
     text-align: center;
     margin: auto;
-    width: 250px;
-    height: 40px;
     margin-top: 5px;
     background: rgba(255, 255, 255, 0.33);
     border-radius: 29px;
     border: none;
+    color: white;
+    width: 338px;
+    height: 49px;
 }
 
-input[type="password"]{
+::placeholder {
+    color: aliceblue;
+}
+
+input[type="password"] {
     text-align: center;
     margin: auto;
     position: absolute;
-    width: 250px;
-    height: 40px;
-    left: 102px;
+    width: 338px;
+    height: 49px;
+    left: 78px;
     margin-top: 30px;
     background: rgba(255, 255, 255, 0.33);
     border-radius: 29px;
     border: none;
+    color: white;
 }
 
 input[type="submit"] {
@@ -78,12 +74,15 @@ input[type="submit"] {
     width: 100px;
     height: 41px;
     left: 660px;
-    margin-top: 100px;
+    margin-top: 120px;
     border-radius: 29px;
     background: rgba(255, 255, 255, 0.33);
+    color: aliceblue;
+    font-weight: 700;
 
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: white;
+    color: #102B53;
 }
